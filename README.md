@@ -13,9 +13,10 @@ Este script en Python permite convertir archivos de video en formato `.mov` a fo
 - **Python 3.x**  
 - **ffmpeg** instalado y accesible en el PATH.  
   En sistemas basados en Debian/Ubuntu, puedes instalarlo con:
-  ```bash
+```bash
   sudo apt-get update
   sudo apt-get install ffmpeg
+```
 
 Instalación
 	1.	Descarga o clona este repositorio o simplemente descarga el script convert_mov_to_mp4.py.
@@ -28,15 +29,16 @@ chmod +x convert_mov_to_mp4.py
 Uso
 
 Abre una terminal y ejecuta el script. Puedes especificar el directorio donde se encuentran los archivos .mov o, si no lo haces, se usará el directorio actual.
-	•	Para convertir archivos en el directorio actual:
-
+	
+• Para convertir archivos en el directorio actual:
+```bash
 ./convert_mov_to_mp4.py
+```
 
-
-	•	Para convertir archivos en un directorio específico:
-
+• Para convertir archivos en un directorio específico:
+```bash
 ./convert_mov_to_mp4.py /ruta/al/directorio
-
+```
 
 
 El script creará (si no existe) una carpeta llamada mp4 en el directorio especificado, y ahí se guardarán los archivos convertidos.
