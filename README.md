@@ -66,13 +66,14 @@ Parámetros de Conversión
 El script utiliza los siguientes parámetros de ffmpeg para la conversión:
 
 Video:
-• -vcodec libx264: Codifica el video en H.264, lo que permite una buena relación calidad/tamaño.
-• -crf 23: Controla la calidad del video; valores menores (por ejemplo, 18) aumentan la calidad (y el tamaño), mientras que valores mayores (por ejemplo, 28) reducen la calidad (y el tamaño).
-• -preset slow: Optimiza la compresión a costa de mayor tiempo de procesamiento. Puedes cambiarlo a medium o fast para conversiones más rápidas.
+
+* -vcodec libx264: Codifica el video en H.264, lo que permite una buena relación calidad/tamaño.
+* -crf 23: Controla la calidad del video; valores menores (por ejemplo, 18) aumentan la calidad (y el tamaño), mientras que valores mayores (por ejemplo, 28) reducen la calidad (y el tamaño).
+* -preset slow: Optimiza la compresión a costa de mayor tiempo de procesamiento. Puedes cambiarlo a medium o fast para conversiones más rápidas.
 
 Audio:
-• -acodec aac: Codifica el audio en formato AAC.
-• -b:a 128k: Define el bitrate del audio en 128 kbps.
+* -acodec aac: Codifica el audio en formato AAC.
+* -b:a 128k: Define el bitrate del audio en 128 kbps.
 
 Puedes ajustar estos parámetros en el script según tus necesidades para balancear la calidad y el tamaño de los videos resultantes.
 
