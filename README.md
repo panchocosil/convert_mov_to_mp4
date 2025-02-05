@@ -64,6 +64,7 @@ El script creará (si no existe) una carpeta llamada mp4 en el directorio especi
 Parámetros de Conversión
 
 El script utiliza los siguientes parámetros de ffmpeg para la conversión:
+
 	•	Video:
 	•	-vcodec libx264: Codifica el video en H.264, lo que permite una buena relación calidad/tamaño.
 	•	-crf 23: Controla la calidad del video; valores menores (por ejemplo, 18) aumentan la calidad (y el tamaño), mientras que valores mayores (por ejemplo, 28) reducen la calidad (y el tamaño).
