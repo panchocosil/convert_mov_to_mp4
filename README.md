@@ -24,6 +24,16 @@ Este script en Python permite convertir archivos de video en formato `.mov` a fo
   brew install ffmpeg
 ```
 
+
+Instalación de ffmpeg en Windows desde el terminal:
+	1.	Abre PowerShell como administrador.
+	2.	Si tienes Chocolatey instalado, ejecuta:
+
+```bash
+choco install ffmpeg -y
+```
+Si no tienes Chocolatey, instálalo siguiendo las instrucciones en chocolatey.org/install y luego ejecuta el comando anterior.
+
 Instalación
 	1.	Descarga o clona este repositorio o simplemente descarga el script convert_mov_to_mp4.py.
 	2.	Asigna permisos de ejecución (en sistemas Unix/Linux):
