@@ -11,11 +11,17 @@ Este script en Python permite convertir archivos de video en formato `.mov` a fo
 ## Requisitos
 
 - **Python 3.x**  
-- **ffmpeg** instalado y accesible en el PATH.  
+- **ffmpeg** instalado y accesible en el PATH.
+  
   En sistemas basados en Debian/Ubuntu, puedes instalarlo con:
 ```bash
   sudo apt-get update
   sudo apt-get install ffmpeg
+```
+
+  En sistemas MacOS, puedes instalarlo con:
+```bash
+  brew install ffmpeg
 ```
 
 Instalación
