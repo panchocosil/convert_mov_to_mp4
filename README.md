@@ -63,18 +63,6 @@ El script utiliza los siguientes parámetros de ffmpeg para la conversión:
 
 Puedes ajustar estos parámetros en el script según tus necesidades para balancear la calidad y el tamaño de los videos resultantes.
 
-Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas mejorar el script o tienes sugerencias, no dudes en abrir un issue o enviar un pull request.
-
-Licencia
-
-Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
-
-Contacto
-
-Para consultas, sugerencias o reportar errores, puedes contactarme a través de [tu correo electrónico o perfil de GitHub].
-
 ---
 
 ### Notas adicionales
