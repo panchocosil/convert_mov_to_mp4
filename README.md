@@ -28,8 +28,9 @@ Instalación
 	1.	Descarga o clona este repositorio o simplemente descarga el script convert_mov_to_mp4.py.
 	2.	Asigna permisos de ejecución (en sistemas Unix/Linux):
 
+```bash
 chmod +x convert_mov_to_mp4.py
-
+```
 
 
 Uso
